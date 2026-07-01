@@ -1,0 +1,102 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[top=0.3in,bottom=0.3in,left=0.6in,right=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black}
+\urlstyle{same}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting: plain text, bold, small caps free (ATS-safe), horizontal rule
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{-4pt}\hrulefill]
+\titlespacing{\section}{0pt}{2pt}{1pt}
+
+\newcommand{\resumeItem}[1]{\item #1}
+\newenvironment{resumeList}{\begin{itemize}[leftmargin=16pt, itemsep=0pt, topsep=1pt, parsep=0pt]}{\end{itemize}}
+
+\newcommand{\resumeEntry}[4]{
+  \textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill \textit{#4} \\[0pt]
+}
+
+\begin{document}
+
+% ---------- HEADER ----------
+\begin{center}
+  {\LARGE \textbf{Gowtham S}} \\[3pt]
+  {\large Software Engineer} \\[4pt]
+  +91 7904549589 \quad $\vert$ \quad
+  \href{mailto:gowthamsaravanan128@gmail.com}{gowthamsaravanan128@gmail.com} \quad $\vert$ \quad
+  \href{https://github.com/softwaresirppi/}{github.com/softwaresirppi} \\[1pt]
+  \href{https://www.linkedin.com/in/gowtham128/}{linkedin.com/in/gowtham128} \quad $\vert$ \quad
+  \href{https://leetcode.com/software_sirppi/}{leetcode.com/software\_sirppi} \quad $\vert$ \quad
+  \href{https://dev.to/software_sirppi}{dev.to/software\_sirppi}
+\end{center}
+
+% ---------- SUMMARY ----------
+\section*{Professional Summary}
+Software Engineer with 1.5+ years of experience building backend systems using Ruby on Rails and Spring Boot. Strong foundation in algorithms, data structures, and language design, with personal projects spanning parser combinators, interpreters, and pattern-matching engines. Currently deepening Go proficiency and algorithmic problem-solving skills while building a personal programming language and search engine. Prior experience teaching MySQL and DSA to engineering students across multiple colleges.
+
+% ---------- SKILLS ----------
+\section*{Skills}
+\textbf{Languages:} Python, Go, C, C++, Ruby, Java, Bash, SQL, HTML/CSS \\[3pt]
+\textbf{Frameworks:} Ruby on Rails, Spring Boot \\[3pt]
+\textbf{Tools \& Platforms:} Linux, Git/GitHub, Docker, PostgreSQL, MySQL
+
+% ---------- EDUCATION ----------
+\section*{Education}
+\resumeEntry{Kongu Engineering College}{2021 -- 2025}{BE, Computer Science and Engineering}{CGPA: 8.24 (through 5th semester)}
+\textbf{URC Palaniammal Matric Hr. Sec. School} \hfill \\
+\textit{HSC: 93.03\% (2019--2021)} \hfill \textit{SSLC: 92.4\% (2018--2019)}
+
+% ---------- EXPERIENCE ----------
+\section*{Professional Experience}
+
+\resumeEntry{Software Engineer}{Jan 2025 -- Present}{Mr Cooper}{}
+\begin{resumeList}
+  \resumeItem{Develop and maintain backend services using Ruby on Rails and Spring Boot.}
+\end{resumeList}
+
+\vspace{1pt}
+\resumeEntry{MySQL \& DSA Instructor (Intern)}{Jun 2024 -- Jan 2025}{BYTS}{}
+\begin{resumeList}
+  \resumeItem{Delivered 10+ instructional sessions on MySQL and Data Structures \& Algorithms at engineering colleges including CIT, BIT, KEC, Karpagam, and KPR.}
+\end{resumeList}
+
+% ---------- PROJECTS ----------
+\section*{Projects}
+
+\textbf{Parsatron -- Parser Combinator Library} \textit{(Python)} \\[0pt]
+\begin{resumeList}
+  \resumeItem{Built a parser combinator library supporting monadic binding, error recovery, memoized lazy parsers, and separated-by combinators for constructing composable, recursive-descent parsers.}
+\end{resumeList}
+
+\vspace{1pt}
+\textbf{Scheme-ish Interpreter} \textit{(Racket)} \\[0pt]
+\begin{resumeList}
+  \resumeItem{Implemented a Scheme-like language interpreter with a macro expander for \texttt{let}, \texttt{let*}, \texttt{letrec}, and \texttt{cond}, along with free-variable analysis for closure environment capture.}
+\end{resumeList}
+
+\vspace{1pt}
+\textbf{Pattern Matching Engine} \textit{(Go)} \\[0pt]
+\begin{resumeList}
+  \resumeItem{Designed a regex-like pattern matching system using a cursor-based NFA approach supporting character ranges, repetition bounds, and AND/OR/NOT logic in linear time.}
+\end{resumeList}
+
+\vspace{1pt}
+\textbf{Automatic File Organizer} \textit{(Python)} -- 3rd Place \\[0pt]
+\begin{resumeList}
+  \resumeItem{Built a file organization tool to copy, move, and delete files based on name, path, size, mimetype, and access/modification time.}
+\end{resumeList}
+
+% ---------- ACHIEVEMENTS ----------
+\section*{Achievements}
+1st Place -- CSS Battle (Cryptera 2023, CIT), Biweekly Coding Contest (2022, KEC), Web Code Sense (2023, KEC) \\
+2nd Place -- Codeverse, Srishti 2k22, PSG Tech \\
+3rd Place -- Proof of Concept 2k22, KEC
+
+\end{document}
